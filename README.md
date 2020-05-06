@@ -1,5 +1,5 @@
 # 前言
-bottom-popup 是一个底部弹窗下拉二级菜单（二级可多选）
+bottom-popup 是一个基于uni的底部弹窗下拉二级菜单（二级可多选）
 # 开始
 ## 使用
 <popup-list v-if="showPopup" :firstLists="typeList" :secondLists="subjectList" :popupTitle="popupTitle" @selectInfo="selectInfo" @isShowPopup="isShowPopup"></popup-list>
